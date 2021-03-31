@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".clientes.ClientesFragment">
+    <TextView
+            android:text="Braskem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView9"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginStart="8dp" app:layout_constraintTop_toBottomOf="@+id/textView8"
+            android:layout_marginTop="16dp" android:textStyle="bold"/>
+    <TextView
+            android:text="Gerdau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView10"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginStart="8dp" app:layout_constraintTop_toBottomOf="@+id/textView9"
+            android:layout_marginTop="16dp" android:textStyle="bold"/>
+    <TextView
+            android:text="Embraer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView11"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginStart="8dp" app:layout_constraintTop_toBottomOf="@+id/textView10"
+            android:layout_marginTop="16dp" android:textStyle="bold"/>
+    <TextView
+            android:text="Nestle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView12"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginStart="8dp" app:layout_constraintTop_toBottomOf="@+id/textView11"
+            android:layout_marginTop="16dp" android:textStyle="bold"/>
+    <TextView
+            android:text="Lojas Americana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginStart="4dp" app:layout_constraintTop_toBottomOf="@+id/textView12"
+            android:layout_marginTop="16dp" android:textStyle="bold"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistemas de gestão de qualidade" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp" android:textStyle="bold"
+            android:textSize="18sp" android:id="@+id/textView6" android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="@string/Loremipsum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView7"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:layout_marginTop="16dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+            android:textAlignment="viewStart"/>
+    <TextView
+            android:text="Cielo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24" android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp" android:textStyle="bold"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
